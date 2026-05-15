@@ -1,0 +1,17 @@
+v1.1:
+    Fixed custom level loading bug
+    Fixed an inconsistency with collisions
+
+v1.2:
+    Fixed UI layer bug in editor
+    Fixed Editor bug when deleting obstacles instantly after creating
+    Fixed Saving game before placing player and hole in Editor
+    Added Mode to change the size of the obstacle slowly (shift)
+    Added New Levels
+    Added background Music
+    Changed File Path loading method
+
+v1.3:
+    Fixed Editor bug when creating multiple custom levels
+    Added Editor Help
+    Reworked Levels
