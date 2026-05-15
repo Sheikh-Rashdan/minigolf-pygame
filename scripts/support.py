@@ -4,6 +4,9 @@ from os.path import join
 import customtkinter as ctk
 from threading import Thread
 
+if not os.path.exists(get_path(join('levels','custom'))):
+    os.mkdir(get_path(join('levels', 'custom')))
+
 class Timer:
     def __init__(self, duration, func = None, autostart = False, loop = False):
 
@@ -74,7 +77,7 @@ def multifunc(*args):
 def get_file(parent):
 
     window = ctk.CTk()
-    window.title('Save Custom Level')
+    window.title('Open Custom Level')
     window.geometry('300x300')
     window.resizable(False,False)
 
@@ -91,6 +94,8 @@ def get_file(parent):
     def add_button(file):
         ctk.CTkButton(file_name_dropdown, text = file[:-5], height = 40, command = lambda: choose_file(file)).pack(fill = 'x', padx = 5, pady = 5)
 
+    if not files:
+        ctk.CTkLabel(file_name_dropdown, text="No Custom Levels Avaialable", font=("Arial", 14, "bold")).pack(fill="x", pady=5)
     for file in files:
         add_button(file)
 
