@@ -16,3 +16,7 @@ mode, making it easy to experiment with new ideas and share creative challenges.
 <p align="center">
   <img width="1127" height="852" alt="minigolf-pygame-mainmenu-showcase" src="https://github.com/user-attachments/assets/3a4aab27-052d-4b54-ae1c-10021e876c90" />
 </p>
+<br />
+<p align="center">
+  <img width="1127" height="852" alt="minigolf-pygame-level-showcase" src="https://github.com/user-attachments/assets/0a4e7a54-2b2b-4069-8069-e14f97386517" />
+</p>
